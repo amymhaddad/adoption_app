@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /Users/amyhaddad/.yarn/bin/yarn.js format
+
+PATH: 
+  /Users/amyhaddad/.yarn/bin:/Users/amyhaddad/.config/yarn/global/node_modules/.bin:.git/safe/../../bin:/Users/amyhaddad/.asdf/bin:/Users/amyhaddad/.asdf/shims:/Users/amyhaddad/.bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/amyhaddad/javascript/react_fem/adoption_app/package.json: Unexpected token : in JSON at position 183
+      at JSON.parse (<anonymous>)
+      at /Users/amyhaddad/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/amyhaddad/.yarn/lib/cli.js:304:30)
+      at /Users/amyhaddad/.yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "adoption_app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.10.1",
+      "prettier": "^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
